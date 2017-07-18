@@ -177,8 +177,13 @@ compared to the back/forward buttons */
 #sad-webview,
 webview {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  margin: 20px 20px;
+}
+
+#webview2 {
+  position: absolute;
+  margin: 20px 700px;
+
 }
 
 /* The reload button turns into a spinning trobber */

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="browser.css">
     <script src="browser.js"></script>
   <body>
-    <div id="controls">
+   <!-- <div id="controls">
 
       <button id="back" title="Go Back" disabled="true">&#9664;</button>
       <button id="forward" title="Go Forward" disabled="true">&#9654;</button>
@@ -41,9 +41,23 @@
         <button id="find-backward">&#60;</button>
         <button id="find-forward">&#62;</button>
       </form>
-    </div>
+    </div> -->
 
-    <webview src="http://www.github.com/" style="width:640px; height:480px"></webview>
+    <div id="controls">
+      <form id="location-form">
+        <div id="center-column">
+          <input id="location" type="text">
+        </div>
+        <input type="submit" value="Go">
+      </form>
+      </div>
+
+      <button id="bookmark">Bookmark</button>
+
+    <webview src="http://www.bloomingdales.com/" useragent="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1" style="width:500px; height:500px"></webview>
+
+    <webview id="webview2" src="http://www.usatoday.com/" useragent="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1" style="width:500px; height:500px"></webview>
+
 
     <div id="sad-webview">
       <div id="sad-webview-icon">&#9762;</div>
