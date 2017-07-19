@@ -16,11 +16,11 @@ onload = function() {
 
 
 
-  webview.addEventListener('close', handleExit);
-  webview.addEventListener('did-start-loading', handleLoadStart);
-  webview.addEventListener('did-stop-loading', handleLoadStop);
-  webview.addEventListener('did-fail-load', handleLoadAbort);
-  webview.addEventListener('did-get-redirect-request', handleLoadRedirect);
+  //webview.addEventListener('close', handleExit);
+  //webview.addEventListener('did-start-loading', handleLoadStart);
+  //webview.addEventListener('did-stop-loading', handleLoadStop);
+  //webview.addEventListener('did-fail-load', handleLoadAbort);
+  //webview.addEventListener('did-get-redirect-request', handleLoadRedirect);
 
 }
 
